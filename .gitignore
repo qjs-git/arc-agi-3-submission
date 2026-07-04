@@ -1,0 +1,32 @@
+# .gitignore for the PUBLIC submission repo (this folder's own git).
+# Keep the public repo to source + paper only; no secrets, data, or large binaries.
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+
+# Secrets — never commit
+.env
+*.env
+kaggle.json
+
+# Model weights / large binaries — ship as a Kaggle dataset instead
+*.pt
+*.pth
+*.onnx
+*.gguf
+*.safetensors
+*.bin
+*.ckpt
+
+# OS
+.DS_Store
+Thumbs.db

@@ -4,14 +4,16 @@ Public, MIT-0 mirror of Jerry's **ARC Prize 2026 — ARC-AGI-3** submission: an 
 unseen interactive games efficiently.
 
 - Competition: <https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3>
-- License: **MIT No Attribution** (see [LICENSE](LICENSE)) — CC0/MIT-0 is required for any prize.
+- License: **CC BY 4.0** (see [LICENSE](LICENSE)) — required for any prize (switched from MIT-0
+  2026-07-05; Kaggle Rules §1.6/§2.5 require CC-BY 4.0 specifically, with attribution).
 
 ## Why this repo exists
 
 Two competition rules make a public, open-source repo mandatory:
 
-1. **Prize eligibility** — a prize-eligible solution must be released under CC0 or MIT-0 **before
-   private scoring**. A private repo can't win.
+1. **Prize eligibility** — a prize-eligible solution must be released under **CC-BY 4.0** (open
+   system/model/weights per the OSI Open Source AI definition) **before private scoring**. A
+   private repo can't win.
 2. **Paper Track** — the paper must link to a **working, reproducible, public** code submission.
 
 So the *solution* is open-sourced here, while the day-to-day working repo (strategy, experiment
